@@ -32,5 +32,17 @@ In a landscape where data privacy is paramount, Sentinel-RAG demonstrates a secu
 
 1. **Clone the Repository:**
    ```bash
-   git clone [https://github.com/YOUR_USERNAME/sentinel-rag.git](https://github.com/YOUR_USERNAME/sentinel-rag.git)
+   git clone [https://github.com/PurimetlaRoopesh/sentinel_rag](https://github.comPurimetlaRoopesh/sentinel_rag.git)
    cd sentinel-rag
+   
+## Set up Environment
+python -m venv .venv
+source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+pip install -r requirements.txt
+
+## Initialize Local Models
+ollama pull llama3.2
+ollama pull nomic-embed-text
+
+## Launch Application
+streamlit run app.py
