@@ -42,10 +42,10 @@ source .venv/bin/activate  # On Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 
 ## Initialize Local Models
-```bash
+
 ollama pull llama3.2
 ollama pull nomic-embed-text
 
 ## Launch Application
-```bash
+
 streamlit run app.py
