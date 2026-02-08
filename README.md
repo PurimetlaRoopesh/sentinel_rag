@@ -36,16 +36,16 @@ In a landscape where data privacy is paramount, Sentinel-RAG demonstrates a secu
    cd sentinel-rag
    
 ## Set up Environment
-'''bash
+```bash
 python -m venv .venv
 source .venv/bin/activate  # On Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 
 ## Initialize Local Models
-'''bash
+```bash
 ollama pull llama3.2
 ollama pull nomic-embed-text
 
 ## Launch Application
-'''bash
+```bash
 streamlit run app.py
